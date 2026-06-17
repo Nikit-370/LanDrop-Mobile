@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/4a1d59f0-8941-49c0-bdfc-887f4308d95b
-
-## Run Locally
-
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
-
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-=======
 # LAN Drop (LANDrop) 🚀
 
 > A visually striking, high-speed regional file-sharing application that turns your Android device into a local sharing hub. Wirelessly upload and download files directly to/from any browser on your local Wi-Fi network with zero internet dependency and absolute privacy.
@@ -99,4 +76,3 @@ LAN Drop handles binary transfers via raw byte buffering. As a generic high-perf
 1. Ensure your Android device and the target device (e.g., laptop/tablet) are on the **exact same Wi-Fi network** or sharing a hotspot.
 2. Open LAN Drop and toggle **Start Sharing Portal** to boot up the HTTP web portal.
 3. Use the generated URL (e.g., `http://192.168.1.100:8080`) or **scan the QR Code** from your other device to start broadcasting, downloading, and storing files!
->>>>>>> 9a0c5c0 (Sync latest improvements from AI Studio (port safeguards & md documentation))
