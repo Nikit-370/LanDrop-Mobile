@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.58"
+        android:scaleY="0.58">
+        
+        <!-- Outer Smartphone Body Frame -->
+        <path
+            android:strokeColor="#1750FF"
+            android:strokeWidth="2.5"
+            android:strokeLineJoin="round"
+            android:fillColor="#121D3F"
+            android:fillAlpha="0.75"
+            android:pathData="M38,30 C38,26.7 40.7,24 44,24 H64 C67.3,24 70,26.7 70,30 V78 C70,81.3 67.3,84 64,84 H44 C40.7,84 38,81.3 38,78 Z" />
+
+        <!-- inner Glowing Smartphone Screen Border -->
+        <path
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="1.2"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M41,31 C41,28.8 42.8,27 45,27 H63 C65.2,27 67,28.8 67,31 V77 C67,79.2 65.2,81 63,81 H45 C42.8,81 41,79.2 41,77 Z" />
+
+        <!-- File Document Icon (Upper part of screen) -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M50,33 h7 l4,4 v10 h-11 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M57,33 v4 h4 Z" />
+        
+        <!-- File Details (Miniature Text lines) -->
+        <path
+            android:strokeColor="#0A1128"
+            android:strokeWidth="1.0"
+            android:pathData="M52,40 h7" />
+        <path
+            android:strokeColor="#0A1128"
+            android:strokeWidth="1.0"
+            android:pathData="M52,43 h7" />
+        <path
+            android:strokeColor="#0A1128"
+            android:strokeWidth="1.0"
+            android:pathData="M52,46 h4" />
+
+        <!-- Connected Folder (Lower part of screen) -->
+        <path
+            android:fillColor="#1750FF"
+            android:pathData="M47,56 h5 l2,2 h7 a1,1 0 0 1 1,1 v9 a1,1 0 0 1 -1,1 H47 a1,1 0 0 1 -1,-1 V57 a1,1 0 0 1 1,-1 Z" />
+
+        <!-- Connecting Dotted Nodes -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M54,50.0 m-0.8,0 a0.8,0.8 0 1,1 1.6,0 a0.8,0.8 0 1,1 -1.6,0 M54,53.0 m-0.8,0 a0.8,0.8 0 1,1 1.6,0 a0.8,0.8 0 1,1 -1.6,0 M54,56.0 m-0.8,0 a0.8,0.8 0 1,1 1.6,0 a0.8,0.8 0 1,1 -1.6,0" />
+
+        <!-- Left Outgoing Signal Arrow (File Sharing) -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M44,40 H28 v-3 L20,41 l8,4 v-3 H44 Z" />
+
+        <!-- Right Incoming Signal Arrow (Folder Receiving) -->
+        <path
+            android:fillColor="#1750FF"
+            android:pathData="M64,61 H80 v-3 L88,62 l-8,4 v-3 H64 Z" />
+
+        <!-- Symmetrical Left Side Signal Ripples / Waves -->
+        <path
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="2.0"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:pathData="M22,34 A26,26 0 0,0 22,74" />
+        <path
+            android:strokeColor="#1750FF"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:pathData="M26,40 A18,18 0 0,0 26,68" />
+
+        <!-- Symmetrical Right Side Signal Ripples / Waves -->
+        <path
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="2.0"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:pathData="M86,34 A26,26 0 0,1 86,74" />
+        <path
+            android:strokeColor="#1750FF"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:pathData="M82,40 A18,18 0 0,1 82,68" />
+            
+    </group>
+</vector>
